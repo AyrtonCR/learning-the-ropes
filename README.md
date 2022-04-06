@@ -1,2 +1,2 @@
 # learning-the-ropes
-A repo containing some spare time projects I am working on.
+A repo containing a spare time project building a website using HTML, CSS & JS.
