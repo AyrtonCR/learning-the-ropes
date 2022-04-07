@@ -1,11 +1,8 @@
 # learning-the-ropes
-<<<<<<< HEAD
 
 ## Website Rebuild Project
 
 ---
-
-<br>
 
 ## Project Overview
 
@@ -20,7 +17,7 @@ https://www.dementiacanterbury.org.nz/
 ## Steps to take to build site
 
 1. Identify and create core files with standard file names
-2. Add basic layout to some forms and prepare to work on index.html
+2. Add basic layout to some files and prepare to work on index.html
 3. Add as much of the html layout as possible using JS React
 4. Create a photo database with ripped photos from the current site
 5. Break apart index.html into components and modules
@@ -31,7 +28,7 @@ https://www.dementiacanterbury.org.nz/
 
 ## Part 1: Index
 
-- Header (logo pic, contact, form, donate, number and email)
+- Header (logo pic, contact, form, donate, number and email)(broken + and - icons located at top right corner)
 - Nav bar (seven dropdown menus)
 - Slideshow (three images with different buttons overlapped for different images)(image scaling problem identified)
 - Grid Boxes (grid area with up to 3 grids, box with button)
@@ -68,6 +65,4 @@ https://www.dementiacanterbury.org.nz/
 ## Link to deployed website
 
 https://
-=======
 Spare time project building a website using HTML, CSS & JS.
->>>>>>> 90e48b9f2b077ca60b4b392ac988a8f486a408de
