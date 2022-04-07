@@ -1,4 +1,5 @@
 # learning-the-ropes
+<<<<<<< HEAD
 
 ## Website Rebuild Project
 
@@ -67,3 +68,6 @@ https://www.dementiacanterbury.org.nz/
 ## Link to deployed website
 
 https://
+=======
+Spare time project building a website using HTML, CSS & JS.
+>>>>>>> 90e48b9f2b077ca60b4b392ac988a8f486a408de
