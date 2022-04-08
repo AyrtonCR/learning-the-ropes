@@ -17,6 +17,8 @@ code {
 .root-content {
   font-family: "Nunito", sans-serif;
 }
+
+/* ------------------------HEADER---------------------------------- */
 .my-header-container {
   background-color: skyblue;
   text-align: center;
@@ -83,7 +85,41 @@ code {
   font-size: 1.3rem;
 }
 
+/* ------------------------NAVBAR---------------------------------- */
+.navbar {
+  background-color: rgb(221, 221, 225);
+}
+
+.dropdown {
+  width: 5rem;
+  height: 5rem;
+}
+
+.list-button-1,
+.list-button-2,
+.list-button-3,
+.list-button-4,
+.list-button-5,
+.list-button-6,
+.list-button-7 {
+  background-color: rgb(152, 152, 161);
+  text-decoration: none;
+  list-style-type: none;
+  padding: none;
+}
+
+.nav-dropdown {
+  padding: 0;
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
 @media only screen and (min-width: 34rem) {
+  /* ------------------------HEADER---------------------------------- */
   .three-buttons-container {
     margin-top: 3.5rem;
     display: grid;
@@ -97,8 +133,10 @@ code {
     grid-template-columns: 1fr 1fr;
   }
 }
+/* ------------------------NAVBAR---------------------------------- */
 
 @media only screen and (min-width: 56rem) {
+  /* ------------------------HEADER---------------------------------- */
   .my-header-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -107,9 +145,11 @@ code {
   .follow-us {
     font-size: 1.3rem;
   }
+  /* ------------------------NAVBAR---------------------------------- */
 }
 
 @media only screen and (min-width: 65rem) {
+  /* ------------------------HEADER---------------------------------- */
   .my-header-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -123,4 +163,5 @@ code {
 
   .logo-image {
   }
+  /* ------------------------NAVBAR---------------------------------- */
 }

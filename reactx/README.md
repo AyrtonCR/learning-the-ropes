@@ -79,6 +79,11 @@ To rebuild the Dementia Canterbury Website from scratch using as little referenc
 
 7.  Part of image in the three photo slideshow wont display properly when scaling the webpage, a lot of it runs off the page, might be tricky to fix).
 
+8.  Nav bar only displays in 50% + screen size.
+
+9.
+
+
     <br>
 
     ***
