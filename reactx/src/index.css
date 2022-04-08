@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500;700&display=swap");
 
 body {
   margin: 0;
@@ -19,31 +19,108 @@ code {
 }
 .my-header-container {
   background-color: skyblue;
-  display: grid;
-  grid-template-rows: 1fr 1fr;
   text-align: center;
 }
 
 .three-buttons-container {
+  margin-top: 2.5rem;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  justify-items: center;
 }
 
-.contact-button,
-.referral-button,
-.donate-button {
-  font-size: 1.4rem;
+.contact-and-referral {
+  display: grid;
+  grid-template-columns: 1fr;
+}
 
+.donate-button-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 14.5rem;
+}
+.donate-button {
+  width: fit-content;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  font-size: 1.4rem;
+  background-color: rgb(253, 64, 64);
   color: white;
   text-decoration: none;
-  margin: 0rem 1rem 0rem 0rem;
+  padding: 0.5rem;
 }
-
+.referral-button {
+  width: fit-content;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  font-size: 1.4rem;
+  background-color: rgb(253, 64, 64);
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+.contact-button {
+  width: fit-content;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  font-size: 1.4rem;
+  background-color: rgb(253, 64, 64);
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+}
 .my-logo-container {
-  max-width: 100%;
-  text-align: center;
+  height: fit-content;
+  padding: 3rem;
 }
 
 .logo-image {
   max-width: 100%;
+}
+
+.follow-us {
+  font-size: 1.3rem;
+}
+
+@media only screen and (min-width: 34rem) {
+  .three-buttons-container {
+    margin-top: 3.5rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .contact-and-referral {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 56rem) {
+  .my-header-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .follow-us {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (min-width: 65rem) {
+  .my-header-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: none;
+  }
+
+  .my-logo-container {
+    align-self: left;
+    justify-self: left;
+  }
+
+  .logo-image {
+  }
 }

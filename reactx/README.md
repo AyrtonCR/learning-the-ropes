@@ -51,13 +51,19 @@ To rebuild the Dementia Canterbury Website from scratch using as little referenc
 
 <br>
 
+---
+
 ## Part 3:
 
-<br>
+---
 
 <br>
 
-## Problems found with original website
+<br>
+
+## Problems found with the original website
+
+<br>
 
 1.  Noticed there is an issue when the page is going from mobile to mid screen view that logo image stays locked to the left when the rest of the elements scale with the page. It should stay centered.
 
@@ -69,21 +75,41 @@ To rebuild the Dementia Canterbury Website from scratch using as little referenc
 
 5.  Text in header doesn't match up with other header grid elements in mobile view.
 
-6.
+6.  Small bug found when slowly changing sizes from mobile where contact, referral, donate buttons squish.
 
-7.
+7.  Part of image in the three photo slideshow wont display properly when scaling the webpage, a lot of it runs off the page, might be tricky to fix).
 
-   <br>
+    <br>
 
-      ---
+    ***
+
+    <br>
 
 ## Project Dependencies
 
+<br>
+
+App written and utilized using ...
+
+- vscode
+- javascript React
+
+<br>
+
+Packages installed are ...
+
+- live-server
+- react.dom
+- stylelint
+- prettier
+- jest-dom
+
+<br>
+
+---
+
 ## Instructions for how to further develop the App
 
-## What needs to be installed to run this App
+Currently in progress ...
 
-## Link to deployed website
-
-https://
-Spare time project building a website using HTML, CSS & JS.
+### Link to deployed website

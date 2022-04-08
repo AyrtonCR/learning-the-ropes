@@ -8,17 +8,22 @@ const Header = () => {
         <img src="./logo.jpeg" className="logo-image" alt="logo"></img>
       </div>
       <div class="three-buttons-container">
-        <a href="https://www.google.com" className="contact-button">
-          CONTACT US
-        </a>
-        <a href className="referral-button">
-          REFERRAL FORM
-        </a>
-
-        <a href className="donate-button">
-          DONATE NOW
-        </a>
-        <p>Follow us on Facebook 03 379 2590 admin@dementiacanterbury.org.nz</p>
+        <div class="contact-and-referral">
+          <a href="https://www.google.com" className="contact-button">
+            <strong>CONTACT US</strong>
+          </a>
+          <a href className="referral-button">
+            <strong>REFERRAL FORM</strong>
+          </a>
+        </div>
+        <div className="donate-button-container">
+          <a href className="donate-button">
+            <strong>DONATE NOW</strong>
+          </a>
+        </div>
+        <p className="follow-us">
+          Follow us on Facebook 03 379 2590 admin@dementiacanterbury.org.nz
+        </p>
       </div>
     </div>
   );
