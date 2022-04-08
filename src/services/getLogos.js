@@ -1,1 +1,0 @@
-// For second sponsors page //
