@@ -1,11 +1,5 @@
 {
-  "name": "01-exercise-sunglass-shop-in-react",
-  "author": "Developers Institute",
-  "version": "1.0.0",
-  "private": true,
   "dependencies": {
-    "bootstrap": "^5.1.3",
-    "lint": "^0.7.0",
-    "live-server": "^1.2.1"
+    "react-router-dom": "^6.3.0"
   }
 }

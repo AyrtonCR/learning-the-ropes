@@ -37,3 +37,12 @@
     transform: rotate(360deg);
   }
 }
+
+.home,
+.services,
+.signup {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  font-size: 3rem;
+}

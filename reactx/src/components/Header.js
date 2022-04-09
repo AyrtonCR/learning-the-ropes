@@ -3,12 +3,12 @@ import { React } from "react";
 
 const Header = () => {
   return (
-    <div class="my-header-container">
-      <div class="my-logo-container">
+    <div className="my-header-container">
+      <div className="my-logo-container">
         <img src="./logo.jpeg" className="logo-image" alt="logo"></img>
       </div>
-      <div class="three-buttons-container">
-        <div class="contact-and-referral">
+      <div className="three-buttons-container">
+        <div className="contact-and-referral">
           <a href="https://www.google.com" className="contact-button">
             <strong>CONTACT US</strong>
           </a>
