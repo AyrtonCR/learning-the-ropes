@@ -9,6 +9,7 @@ import SignsOfDementia from "./components/pages/SignsOfDementia";
 import ReducingTheRisk from "./components/pages/ReducingTheRisk.js";
 import WhatIsDementia from "./components/pages/WhatIsDementia";
 import TripleGrid from "./components/TripleGrid";
+import Blurb from "./components/Blurb";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
             <Route path="./consulting" exact component={SignsOfDementia} />
           </Routes>
           <TripleGrid />
+          <Blurb />
         </div>
       </div>
     </Router>
