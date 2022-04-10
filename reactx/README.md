@@ -32,7 +32,7 @@ To rebuild the Dementia Canterbury Website from scratch using as little referenc
 - Header (logo pic, contact, form, donate, number and email)(broken + and - icons located at top right corner)
 - Nav bar (seven dropdown menus)
 - Slideshow (three images with different buttons overlapped for different images)(image scaling problem identified)
-- Grid Boxes (grid area with up to 3 grids, box with button)
+- Triple Grid / Grid Boxes (grid area with up to 3 grids, box with button)
 - Blurb with mini blurb beside it and image of NZ beside that (scaling issue for this part identified in original)
 - Footer ((LTR - logo pics, semi form layout with contact information, menu (that does not look clickable in original), and two buttons on right)
 
@@ -81,8 +81,7 @@ To rebuild the Dementia Canterbury Website from scratch using as little referenc
 
 8.  Nav bar only displays in 50% + screen size.
 
-9.
-
+9.  Grid runs off page for the grid with three blocks of content beneath the slideshow on mobile view.
 
     <br>
 

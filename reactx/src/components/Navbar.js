@@ -31,9 +31,7 @@ function Navbar() {
     <>
       <header>
         <nav className="navbar">
-          <Link to="/" className="navbar-logo">
-            LOGO
-          </Link>
+          <Link to="/" className="navbar-logo"></Link>
           <div className="menu-icon" onClick={handleClick}>
             <i
               className={click ? "fas fa-times" : "fas fa-bars"}
@@ -52,26 +50,61 @@ function Navbar() {
               onMouseEnter={onMouseEnter}
               onMouseLeave={onMouseLeave}
             >
-              <Link
-                to="/services"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                Services <i className="fas fa-caret-down" />
+              <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
+                About Dementia <i className="fas fa-caret-down" />
               </Link>
               {dropdown && <Dropdown />}
             </li>
 
             <li className="nav-item">
               <Link
-                to="/products"
+                to="/living-with-dementia"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Products
+                Living With Dementia
               </Link>
             </li>
 
+            <li className="nav-item">
+              <Link
+                to="/support-for-dementia"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Supporting Someone with Dementia
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link
+                to="/edu-and-resources"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Education & Resources
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link
+                to="/news-and-events"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                News & Events
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link
+                to="/ways-to-help"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Ways to Help
+              </Link>
+            </li>
             <li className="nav-item">
               <Link
                 to="/sign-up"

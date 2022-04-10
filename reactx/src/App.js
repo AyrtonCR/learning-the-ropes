@@ -2,13 +2,12 @@ import React from "react";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Services from "./components/pages/Services";
-import Products from "./components/pages/Products";
-import ContactUs from "./components/pages/ContactUs";
+import AboutDementia from "./components/pages/AboutDementia";
 import SignUp from "./components/pages/Signup";
 import Home from "./components/pages/Home";
-import Marketing from "./components/pages/Marketing";
-import Consulting from "./components/pages/Consulting";
+import SignsOfDementia from "./components/pages/SignsOfDementia";
+import ReducingTheRisk from "./components/pages/ReducingTheRisk.js";
+import WhatIsDementia from "./components/pages/WhatIsDementia";
 
 function App() {
   return (
@@ -20,12 +19,16 @@ function App() {
 
           <Routes>
             <Route path="/" exact component={Home} />
-            <Route path="/services" exact component={Services} />
-            <Route path="/products" exact component={Products} />
-            <Route path="/contact-us" exact component={ContactUs} />
+            <Route path="/about" exact component={AboutDementia} />
+
+            <Route
+              path="/reducing-the-risk"
+              exact
+              component={ReducingTheRisk}
+            />
             <Route path="/sign-up" exact component={SignUp} />
-            <Route path="/marketing" exact component={Marketing} />
-            <Route path="./consulting" exact component={Consulting} />
+            <Route path="/what-is-dementia" exact component={WhatIsDementia} />
+            <Route path="./consulting" exact component={SignsOfDementia} />
           </Routes>
         </div>
       </div>

@@ -1,22 +1,22 @@
 export const MenuItems = [
   {
-    title: "Marketing",
-    path: "/marketing",
+    title: "What is Dementia?",
+    path: "/what-is-dementia",
     cName: "dropdown-link",
   },
   {
-    title: "Consulting",
-    path: "/consulting",
+    title: "Signs of Dementia",
+    path: "/signs-of-dementia",
     cName: "dropdown-link",
   },
   {
-    title: "Design",
-    path: "/design",
+    title: "Types of Dementia",
+    path: "/types-of-dementia",
     cName: "dropdown-link",
   },
   {
-    title: "Sales",
-    path: "/sales",
+    title: "Reducing the Risk",
+    path: "/reducing-the-risk",
     cName: "dropdown-link",
   },
 ];
