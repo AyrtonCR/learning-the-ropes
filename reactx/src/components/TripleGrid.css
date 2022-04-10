@@ -1,0 +1,36 @@
+.triple-grid-container {
+}
+
+.triple-grid-item {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.triple-grid-item-content-one,
+.triple-grid-item-content-two,
+.triple-grid-item-content-three {
+  background-color: rgb(220, 220, 220);
+  margin: 1.5rem;
+  padding: 1.2rem;
+  border-radius: 0.35rem;
+}
+
+.triple-grid-heading {
+  font-size: 1.5rem;
+  color: #fd403f;
+}
+
+.triple-grid-content {
+  line-height: 2.2rem;
+  font-size: 1.1rem;
+}
+
+.triple-grid-button {
+  color: white;
+  display: unset;
+  font-size: 1.4rem;
+  background-color: #fd403f;
+  padding: 0.7rem 1.7rem;
+  border-radius: 0.75rem;
+  border-color: #fd403f;
+}

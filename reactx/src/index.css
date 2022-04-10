@@ -216,6 +216,9 @@ code {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+  .referral-button {
+    margin: 1rem;
+  }
 }
 /* ------------------------NAVBAR---------------------------------- */
 
