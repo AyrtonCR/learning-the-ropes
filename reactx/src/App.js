@@ -11,6 +11,7 @@ import WhatIsDementia from "./components/pages/WhatIsDementia";
 import TripleGrid from "./components/TripleGrid";
 import Blurb from "./components/Blurb";
 import Slideshow from "./components/Slideshow";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -33,11 +34,12 @@ function App() {
             <Route path="/what-is-dementia" exact component={WhatIsDementia} />
             <Route path="./consulting" exact component={SignsOfDementia} />
           </Routes>
+          <Slideshow />
           <div className="margin-adder">
             <TripleGrid />
             <Blurb />
-            <Slideshow />
           </div>
+          <Footer />
         </div>
       </div>
     </Router>

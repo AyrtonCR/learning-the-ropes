@@ -1,0 +1,13 @@
+.slide-show-container {
+  max-width: 100%;
+}
+
+.slide-show-items {
+  max-width: 100%;
+}
+
+.slide-show-item-one,
+.slide-show-item-two,
+.slide-show-item-three {
+  max-width: 100%;
+}

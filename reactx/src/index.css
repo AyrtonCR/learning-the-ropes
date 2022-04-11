@@ -51,10 +51,45 @@ code {
     margin-right: 4.3rem;
   }
 
-  @media only screen and (min-width: 95rem) {
+  @media only screen and (min-width: 74rem) {
     .margin-adder {
-      margin-left: 33rem;
-      margin-right: 33rem;
+      margin-left: 5.6rem;
+      margin-right: 5.6rem;
+    }
+  }
+
+  @media only screen and (min-width: 85rem) {
+    .margin-adder {
+      margin-left: 7.3rem;
+      margin-right: 7.3rem;
+    }
+  }
+
+  @media only screen and (min-width: 100rem) {
+    .margin-adder {
+      margin-left: 11.3rem;
+      margin-right: 11.3rem;
+    }
+  }
+
+  @media only screen and (min-width: 120rem) {
+    .margin-adder {
+      margin-left: 15.3rem;
+      margin-right: 15.3rem;
+    }
+  }
+
+  @media only screen and (min-width: 130rem) {
+    .margin-adder {
+      margin-left: 20.3rem;
+      margin-right: 20.3rem;
+    }
+  }
+
+  @media only screen and (min-width: 140rem) {
+    .margin-adder {
+      margin-left: 30rem;
+      margin-right: 30rem;
     }
   }
 }

@@ -1,0 +1,42 @@
+.footer-container {
+  background-color: #88ceeb;
+}
+
+.footer-content-images {
+  padding-top: 4rem;
+}
+.footer-content {
+  display: grid;
+  grid-template-rows: 1fr;
+}
+
+.footer-content-images-one,
+.footer-content-images-two {
+}
+
+.footer-content-contact {
+}
+
+.footer-content-heading {
+}
+
+.footer-content-text {
+}
+
+.footer-content-menu {
+}
+
+.footer-menu-links {
+}
+
+.footer-menu-links-items {
+}
+
+.footer-content-buttons {
+}
+
+.donate-button {
+}
+
+.referral-form-button {
+}

@@ -83,7 +83,9 @@ To rebuild the Dementia Canterbury Website from scratch using as little referenc
 
 9.  Grid runs off page for the grid with three blocks of content beneath the slideshow on mobile view.
 
-    <br>
+10. "Desktop Version Only" text found in original footer
+
+11. <br>
 
     ***
 
