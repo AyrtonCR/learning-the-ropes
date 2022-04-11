@@ -10,7 +10,6 @@
 .blurb-main,
 .blurb-mini,
 .blurb-image {
-  margin: 1.5rem;
   padding: 1.2rem;
   border-radius: 0.35rem;
 }
@@ -18,7 +17,7 @@
 .blurb-main-title {
   display: inline-block;
   box-sizing: border-box;
-  width: 29rem;
+  max-width: 29rem;
   font-size: 2.5rem;
   margin-bottom: 5rem;
 }
@@ -55,6 +54,9 @@
   .blurb-item {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+  .blurb-mini {
+    padding-top: 4rem;
   }
 }
 @media only screen and (min-width: 65rem) {

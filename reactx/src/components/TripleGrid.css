@@ -1,16 +1,20 @@
 .triple-grid-container {
+  margin-bottom: 5rem;
 }
 
 .triple-grid-item {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
+  margin-top: 4rem;
+  gap: 1rem;
 }
 
 .triple-grid-item-content-one,
 .triple-grid-item-content-two,
 .triple-grid-item-content-three {
+  max-width: 100%;
+  max-height: 100%;
   background-color: rgb(220, 220, 220);
-  margin: 1.5rem;
   padding: 1.2rem;
   border-radius: 0.35rem;
 }
@@ -42,9 +46,6 @@
   .triple-grid-item {
     grid-template-rows: none;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 3rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
   }
 }
 @media only screen and (min-width: 65rem) {

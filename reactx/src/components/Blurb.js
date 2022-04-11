@@ -34,13 +34,15 @@ export default function Blurb() {
             </p>
           </div>
         </div>
-        <div className="blurb-image">
-          <img
-            className="blurb-image-content"
-            src="./images/map-canterbury.jpeg"
-            alt="map"
-          />
-        </div>
+        <a>
+          <div className="blurb-image">
+            <img
+              className="blurb-image-content"
+              src={require("../images/mapcanterbury.jpeg")}
+              alt="map"
+            />
+          </div>
+        </a>
       </div>
     </>
   );

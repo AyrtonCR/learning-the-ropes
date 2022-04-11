@@ -10,6 +10,7 @@ import ReducingTheRisk from "./components/pages/ReducingTheRisk.js";
 import WhatIsDementia from "./components/pages/WhatIsDementia";
 import TripleGrid from "./components/TripleGrid";
 import Blurb from "./components/Blurb";
+import Slideshow from "./components/Slideshow";
 
 function App() {
   return (
@@ -32,8 +33,11 @@ function App() {
             <Route path="/what-is-dementia" exact component={WhatIsDementia} />
             <Route path="./consulting" exact component={SignsOfDementia} />
           </Routes>
-          <TripleGrid />
-          <Blurb />
+          <div className="margin-adder">
+            <TripleGrid />
+            <Blurb />
+            <Slideshow />
+          </div>
         </div>
       </div>
     </Router>
