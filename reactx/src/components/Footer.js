@@ -21,27 +21,35 @@ export default function Footer() {
           <h2 className="footer-content-heading">Contact</h2>
           <p className="footer-content-text">
             <strong>Canterbury:</strong> 0800 444 776{" "}
-            <strong>West Coast:</strong> 0800 259 226 3/49 Sir William Pickering
-            Drive, Burnside, Christchurch PO Box 20567, Bishopdale, Christchurch
-            8543{" "}
           </p>
-          <div className="footer-content-menu">
-            <h2 className="footer-content-heading">Menu</h2>
-            <ul className="footer-menu-links">
-              <li className="footer-menu-links-items">Get Email Updates</li>
-              <li className="footer-menu-links-items">Media</li>
-              <li className="footer-menu-links-items">Terms and Conditions</li>
-              <li className="footer-menu-links-items">Privacy Policy</li>
-            </ul>
-          </div>
+          <p className="footer-content-text">
+            <strong>West Coast:</strong> 0800 259 226{" "}
+          </p>{" "}
+          <p className="footer-content-text">
+            3/49 Sir William Pickering Drive, Burnside, Christchurch
+          </p>
+          <p className="footer-content-text">
+            {" "}
+            PO Box 20567, Bishopdale, Christchurch 8543{" "}
+          </p>
         </div>
+        <div className="footer-content-menu">
+          <h2 className="footer-content-heading">Menu</h2>
+          <ul className="footer-menu-links">
+            <li className="footer-menu-links-items">Get Email Updates</li>
+            <li className="footer-menu-links-items">Media</li>
+            <li className="footer-menu-links-items">Terms and Conditions</li>
+            <li className="footer-menu-links-items">Privacy Policy</li>
+          </ul>
+        </div>
+
         <div className="footer-content-buttons">
           <img
             src={require("../images/icon-facebook.jpeg")}
             alt="facebook-logo"
           />
-          <button className="donate-button">Donate</button>
-          <button className="referral-form-button">Referral Form</button>
+          <button className="footer-donate-button">DONATE NOW</button>
+          <button className="footer-referral-button">REFERRAL FORM</button>
         </div>
       </div>
     </div>

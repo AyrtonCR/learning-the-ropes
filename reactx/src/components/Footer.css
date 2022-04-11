@@ -3,7 +3,10 @@
 }
 
 .footer-content-images {
-  padding-top: 4rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: 3rem 2rem;
 }
 .footer-content {
   display: grid;
@@ -12,31 +15,52 @@
 
 .footer-content-images-one,
 .footer-content-images-two {
+  max-width: 100%;
 }
 
 .footer-content-contact {
 }
 
 .footer-content-heading {
+  font-size: 2.2rem;
 }
 
 .footer-content-text {
+  font-size: 1.25rem;
+  line-height: 2.3rem;
 }
 
 .footer-content-menu {
 }
 
 .footer-menu-links {
+  font-size: 1.25rem;
+  line-height: 2.3rem;
 }
 
 .footer-menu-links-items {
+  list-style-type: none;
 }
 
 .footer-content-buttons {
+  display: contents;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
-.donate-button {
+.donate-button,
+.referral-button {
+  display: contents;
+  padding: 2rem;
+  margin: 2rem;
+  background-color: red;
 }
 
-.referral-form-button {
+@media only screen and (min-width: 56rem) {
+  .footer-content {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media only screen and (min-width: 65rem) {
+  }
 }
