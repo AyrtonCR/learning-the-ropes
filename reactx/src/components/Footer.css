@@ -1,5 +1,6 @@
 .footer-container {
   background-color: #88ceeb;
+  margin: 0;
 }
 
 .footer-content-images {
@@ -48,19 +49,75 @@
   grid-template-columns: 1fr;
 }
 
-.donate-button,
-.referral-button {
-  display: contents;
-  padding: 2rem;
-  margin: 2rem;
-  background-color: red;
+.footer-referral-button,
+.footer-donate-button,
+.footer-facebook-button {
+  width: fit-content;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  background-color: rgb(253, 64, 64);
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+.footer-facebook-button {
+  background-color: skyblue;
+  width: 4rem;
+  border-radius: 1.3rem;
+}
+
+.footer-margin-adder {
+  background-color: #88ceeb;
 }
 
 @media only screen and (min-width: 56rem) {
   .footer-content {
+    display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "images buttons"
+      "menu contact";
   }
 
-  @media only screen and (min-width: 65rem) {
+  .footer-referral-button,
+  .footer-donate-button {
+    width: 8rem;
+    height: 4rem;
+    font-size: 1.1rem;
+  }
+
+  .footer-content-images {
+    grid-area: images;
+    padding-left: 0;
+    gap: 0rem;
+  }
+  .footer-content-buttons {
+    grid-area: buttons;
+  }
+  .footer-content-menu {
+    grid-area: menu;
+  }
+  .footer-content-contact {
+    grid-area: contact;
+  }
+
+  .footer-facebook-button {
+  }
+}
+
+@media only screen and (min-width: 65rem) {
+  .footer-content,
+  .footer-content-buttons,
+  .footer-content-contact,
+  .footer-content-images,
+  .footer-content-menu {
+  }
+  .footer-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 rem;
   }
 }

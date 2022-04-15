@@ -17,29 +17,31 @@ function App() {
   return (
     <Router>
       <div className="root-content">
-        <div>
-          <Header />
-          <Navbar />
-
-          <Routes>
-            <Route path="/" exact component={Home} />
-            <Route path="/about" exact component={AboutDementia} />
-
-            <Route
-              path="/reducing-the-risk"
-              exact
-              component={ReducingTheRisk}
-            />
-            <Route path="/sign-up" exact component={SignUp} />
-            <Route path="/what-is-dementia" exact component={WhatIsDementia} />
-            <Route path="./consulting" exact component={SignsOfDementia} />
-          </Routes>
-          <Slideshow />
+        <div className="header-margin-adder">
           <div className="margin-adder">
-            <TripleGrid />
-            <Blurb />
+            <Header />
           </div>
-          <Footer />
+        </div>
+        <Navbar />
+
+        <Routes>
+          <Route path="/" exact component={Home} />
+          <Route path="/about" exact component={AboutDementia} />
+
+          <Route path="/reducing-the-risk" exact component={ReducingTheRisk} />
+          <Route path="/sign-up" exact component={SignUp} />
+          <Route path="/what-is-dementia" exact component={WhatIsDementia} />
+          <Route path="./consulting" exact component={SignsOfDementia} />
+        </Routes>
+        <Slideshow />
+        <div className="margin-adder">
+          <TripleGrid />
+          <Blurb />
+        </div>
+        <div className="footer-margin-adder">
+          <div className="margin-adder">
+            <Footer />
+          </div>
         </div>
       </div>
     </Router>

@@ -29,6 +29,10 @@ code {
   text-align: center;
 }
 
+.header-margin-adder {
+  background-color: skyblue;
+}
+
 .three-buttons-container {
   margin-top: 2.5rem;
   display: grid;
@@ -37,16 +41,18 @@ code {
   justify-items: center;
 }
 
-.contact-and-referral {
-  display: grid;
-  grid-template-columns: 1fr;
+.donate-button-container {
+  padding: 1.4em;
 }
 
-.donate-button-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  width: 14.5rem;
+.contact-button-container {
+  padding: 1.4rem;
 }
+
+.referral-button-container {
+  padding: 1.4rem;
+}
+
 .donate-button {
   width: fit-content;
   border-radius: 0.5rem;
@@ -111,17 +117,6 @@ code {
   text-decoration: none;
   list-style-type: none;
   padding: none;
-}
-
-.nav-dropdown {
-  padding: 0;
-  font-size: 1.1rem;
-  line-height: 1.3rem;
-  align-items: center;
-  justify-items: center;
-  text-align: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 /* Dropdown Button */
@@ -211,8 +206,6 @@ code {
   }
 
   .contact-and-referral {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
   }
 }
 /* ------------------------NAVBAR---------------------------------- */

@@ -85,7 +85,15 @@ To rebuild the Dementia Canterbury Website from scratch using as little referenc
 
 10. "Desktop Version Only" text found in original footer
 
-11. <br>
+11. Donate and Referral Form buttons in the footer run off the page just as it scales to larger size (around tablet)
+
+12. Image slider does not scale well at all when resizing to different device specs.
+
+13. Image quality on company logos, facebook button and some images are not the right size and image is blurred / distorted.
+
+14.
+
+<br>
 
     ***
 

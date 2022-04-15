@@ -8,17 +8,19 @@ const Header = () => {
         <img src="./logo.jpeg" className="logo-image" alt="logo"></img>
       </div>
       <div className="three-buttons-container">
-        <div className="contact-and-referral">
+        <div className="contact-button-container">
           <a href="https://www.google.com" className="contact-button">
             <strong>CONTACT US</strong>
           </a>
+        </div>
+        <div className="referral-button-container">
           <a href className="referral-button">
-            <strong>REFERRAL FORM</strong>
+            <strong className="referral-button">REFERRAL FORM</strong>
           </a>
         </div>
         <div className="donate-button-container">
           <a href className="donate-button">
-            <strong>DONATE NOW</strong>
+            <strong className="donate-button">DONATE NOW</strong>
           </a>
         </div>
         <p className="follow-us">

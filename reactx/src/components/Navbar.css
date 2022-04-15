@@ -16,8 +16,9 @@
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   clear: both;
+  padding: 0.2rem;
 }
 
 .navbar-logo {
@@ -52,7 +53,8 @@
 
 .nav-links {
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
+  line-height: 1rem;
   color: white;
   text-decoration: none;
   padding: 0.3rem;
@@ -158,7 +160,11 @@
     transition: 250ms;
   }
 
-  button {
+  .btn {
     display: none;
+  }
+
+  .navbar {
+    padding: 0rem;
   }
 }

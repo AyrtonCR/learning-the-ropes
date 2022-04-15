@@ -45,11 +45,16 @@ export default function Footer() {
 
         <div className="footer-content-buttons">
           <img
+            className="footer-facebook-button"
             src={require("../images/icon-facebook.jpeg")}
             alt="facebook-logo"
           />
-          <button className="footer-donate-button">DONATE NOW</button>
-          <button className="footer-referral-button">REFERRAL FORM</button>
+          <button className="footer-donate-button">
+            <strong>DONATE NOW</strong>
+          </button>
+          <button className="footer-referral-button">
+            <strong>REFERRAL FORM</strong>
+          </button>
         </div>
       </div>
     </div>
