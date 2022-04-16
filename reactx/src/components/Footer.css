@@ -1,6 +1,8 @@
 .footer-container {
   background-color: #88ceeb;
   margin: 0;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .footer-content-images {
@@ -27,7 +29,7 @@
 }
 
 .footer-content-text {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   line-height: 2.3rem;
 }
 
@@ -64,6 +66,10 @@
 }
 
 .footer-facebook-button {
+  justify-self: end;
+  align-self: end;
+  justify-self: left;
+  align-self: left;
   background-color: skyblue;
   width: 4rem;
   border-radius: 1.3rem;
@@ -84,8 +90,8 @@
 
   .footer-referral-button,
   .footer-donate-button {
-    width: 8rem;
-    height: 4rem;
+    width: 10.4rem;
+    height: 3.5rem;
     font-size: 1.1rem;
   }
 
@@ -117,7 +123,8 @@
   }
   .footer-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0 rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "images  contact menu buttons";
+    gap: 1rem;
   }
 }

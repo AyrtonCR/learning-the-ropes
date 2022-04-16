@@ -91,7 +91,9 @@ To rebuild the Dementia Canterbury Website from scratch using as little referenc
 
 13. Image quality on company logos, facebook button and some images are not the right size and image is blurred / distorted.
 
-14.
+14. Buttons that overlap the slideshow do not look good.
+
+15.
 
 <br>
 
