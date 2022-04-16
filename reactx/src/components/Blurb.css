@@ -56,7 +56,29 @@
     grid-template-columns: 1fr 1fr;
   }
   .blurb-mini {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    align-self: right;
+    justify-self: right;
     padding-top: 4rem;
+  }
+
+  .blurb-mini-content {
+    text-align: right;
+  }
+
+  .blurb-image-content {
+    max-width: 100%;
+    align-self: left;
+    justify-self: left;
+    padding-top: 0rem;
+    text-align: left;
+  }
+  .blurb-image {
+    text-align: none;
+    margin-left: 0rem;
+    padding: 0;
   }
 }
 @media only screen and (min-width: 65rem) {

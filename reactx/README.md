@@ -122,6 +122,8 @@ Packages installed are ...
 
 <br>
 
+To test display the website with live-server ensure the correct npm packages are installed and type -npm start in the /learning-the-ropes/reactx folder.
+
 ---
 
 ## Instructions for how to further develop the App

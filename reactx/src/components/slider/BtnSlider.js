@@ -11,6 +11,7 @@ export default function BtnSlider({ direction, moveSlide }) {
       className={direction === "next" ? "btn-slide next" : "btn-slide prev"}
     >
       <img
+        alt="next-button"
         className="button-styler"
         src={direction === "next" ? rightArrow : leftArrow}
       />

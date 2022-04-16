@@ -14,6 +14,7 @@ export default function Slideshow() {
     }
   };
 
+  const moveDot = (index) => setSlideIndex(index);
   const prevSlide = () => {};
 
   return (
@@ -29,6 +30,16 @@ export default function Slideshow() {
               alt="slider-pic"
               src={process.env.PUBLIC_URL + `/Imgs/img${index + 1}.jpeg`}
             />
+            <p>{obj.subTitle}</p>
+            <div className="container-dots">
+              {Array.from({ length: 3 }).map((item, index) => (
+                <div
+                  onClick={() => moveDot(index + 1)}
+                  className={slideIndex === index + 1 ? "dot active" : "dot"}
+                  key={index}
+                ></div>
+              ))}
+            </div>
           </div>
         );
       })}

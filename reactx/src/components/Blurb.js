@@ -32,17 +32,15 @@ export default function Blurb() {
                 Ashburton & North Canterbury regions.
               </strong>
             </p>
+            <div className="blurb-image">
+              <img
+                className="blurb-image-content"
+                src={require("../images/mapcanterbury.jpeg")}
+                alt="map"
+              />
+            </div>
           </div>
         </div>
-        <a>
-          <div className="blurb-image">
-            <img
-              className="blurb-image-content"
-              src={require("../images/mapcanterbury.jpeg")}
-              alt="map"
-            />
-          </div>
-        </a>
       </div>
     </>
   );
