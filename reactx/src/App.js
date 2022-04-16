@@ -10,7 +10,7 @@ import ReducingTheRisk from "./components/pages/ReducingTheRisk.js";
 import WhatIsDementia from "./components/pages/WhatIsDementia";
 import TripleGrid from "./components/TripleGrid";
 import Blurb from "./components/Blurb";
-import Slideshow from "./components/Slideshow";
+import Slideshow from "./components/slider/Slideshow";
 import Footer from "./components/Footer";
 
 function App() {
