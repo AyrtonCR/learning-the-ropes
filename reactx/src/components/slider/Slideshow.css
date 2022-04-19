@@ -79,9 +79,15 @@
   background: rgb(32, 32, 32);
 }
 
+@media only screen and (min-width: 29rem) {
+  .ssc {
+    height: 9.5rem;
+  }
+}
+
 @media only screen and (min-width: 34rem) {
   .ssc {
-    height: 10.8rem;
+    height: 10.6rem;
   }
 }
 @media only screen and (min-width: 39rem) {
@@ -98,7 +104,7 @@
 
 @media only screen and (min-width: 53rem) {
   .ssc {
-    height: 17.5rem;
+    height: 16.6rem;
   }
   .slide-show-container {
   }
@@ -106,15 +112,15 @@
   }
 }
 
-@media only screen and (min-width: 65rem) {
+@media only screen and (min-width: 63rem) {
   .ssc {
-    height: 19.4rem;
+    height: 19.7rem;
   }
 }
 
 @media only screen and (min-width: 74rem) {
   .ssc {
-    height: 23rem;
+    height: 22rem;
   }
 }
 
