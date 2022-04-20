@@ -8,9 +8,11 @@
 
 To rebuild the Dementia Canterbury Website from scratch using as little reference to their source code as possible. While in the process of doing this I want to identify areas of the original website that could have been done better and make small design improvements. The purpose is to practice a start to finish process of rolling out an app using React.js. I will make comments on things I notice we have done differently and compare the code from the original site after making two pages.
 
-[https://www.dementiacanterbury.org.nz/]
+Original Site: [https://www.dementiacanterbury.org.nz/]
 
 ---
+
+Current Re-work: [https://i-like-chicken.netlify.app/]
 
 <br>
 

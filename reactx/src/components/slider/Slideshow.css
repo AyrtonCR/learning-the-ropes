@@ -31,12 +31,13 @@
 }
 
 .btn-slide {
-  width: 60px;
-  height: 60px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
   background: #f1f1f1;
   border: 1px solid rgba(34, 34, 34, 0.287);
   position: absolute;
+  top: 60rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,17 +45,17 @@
 }
 
 .btn-slide img {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   pointer-events: none;
 }
 .prev {
-  top: 50%;
+  top: 73.7%;
   left: 20px;
   transform: translateY(-60%);
 }
 .next {
-  top: 50%;
+  top: 73.7%;
   right: 20px;
   transform: translateY(-60%);
 }
