@@ -34,54 +34,47 @@ code {
 }
 
 .three-buttons-container {
-  margin-top: 2.5rem;
   display: grid;
   grid-template-columns: 1fr;
   justify-content: center;
   justify-items: center;
 }
 
-.donate-button-container {
-  padding: 1.4em;
-}
-
-.contact-button-container {
-  padding: 1.4rem;
-}
-
+.donate-button-container,
+.contact-button-container,
 .referral-button-container {
-  padding: 1.4rem;
+  padding: 0.8rem;
 }
 
 .donate-button {
   width: fit-content;
   border-radius: 0.5rem;
-  margin: 1rem;
-  font-size: 1.4rem;
+  margin: 0.6rem;
+  font-size: 1.1rem;
   background-color: rgb(253, 64, 64);
   color: white;
   text-decoration: none;
-  padding: 0.5rem;
+  padding: 0.3rem;
 }
 .referral-button {
   width: fit-content;
   border-radius: 0.5rem;
-  margin: 1rem;
-  font-size: 1.4rem;
+  margin: 0.6rem;
+  font-size: 1.1rem;
   background-color: rgb(253, 64, 64);
   color: white;
   text-decoration: none;
-  padding: 0.5rem;
+  padding: 0.3rem;
 }
 .contact-button {
   width: fit-content;
   border-radius: 0.5rem;
-  margin: 1rem;
-  font-size: 1.4rem;
+  margin: 0.6rem;
+  font-size: 1.1rem;
   background-color: rgb(253, 64, 64);
   color: white;
   text-decoration: none;
-  padding: 0.5rem;
+  padding: 0.3rem;
 }
 .my-logo-container {
   height: fit-content;
@@ -93,7 +86,7 @@ code {
 }
 
 .follow-us {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 /* ------------------------NAVBAR---------------------------------- */
@@ -196,9 +189,10 @@ code {
   display: block;
 }
 @media only screen and (min-width: 34rem) {
-  /* ------------------------HEADER---------------------------------- */
+  .follow-us {
+    font-size: 1.05rem;
+  }
   .three-buttons-container {
-    margin-top: 3.5rem;
     display: grid;
     grid-template-rows: 1fr 1fr;
     justify-content: center;
@@ -212,12 +206,27 @@ code {
 
 @media only screen and (min-width: 56rem) {
   /* ------------------------HEADER---------------------------------- */
+  .three-buttons-container {
+    margin-top: 1.5rem;
+  }
   .my-header-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
   .follow-us {
+    font-size: 1.3rem;
+  }
+
+  .donate-button-container,
+  .contact-button-container,
+  .referral-button-container {
+    padding: 1.1rem;
+  }
+
+  .donate-button,
+  .referral-button,
+  .contact-button {
     font-size: 1.3rem;
   }
   /* ------------------------NAVBAR---------------------------------- */

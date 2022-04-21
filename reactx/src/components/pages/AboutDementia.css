@@ -1,0 +1,17 @@
+.about-page-container {
+  border: 1px solid #e6e6e6;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.about-page-content-one,
+.about-page-content-two,
+.about-page-content-three,
+.about-page-content-four {
+}
+
+.about-image {
+}
+
+.read-more-button {
+}

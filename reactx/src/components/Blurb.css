@@ -45,6 +45,7 @@
 }
 
 .blurb-image-content {
+  max-width: 200%;
 }
 
 @media only screen and (min-width: 34rem) {

@@ -21,6 +21,7 @@
 }
 
 .slide {
+  padding-top: 0rem;
   position: absolute;
   opacity: 0;
   transition: opacity ease-in-out 0.4s;
@@ -78,6 +79,12 @@
 }
 .dot.active {
   background: rgb(32, 32, 32);
+}
+
+@media only screen and (min-width: 22rem) {
+  .ssc {
+    height: 7.35rem;
+  }
 }
 
 @media only screen and (min-width: 29rem) {

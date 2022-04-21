@@ -132,4 +132,17 @@ To test display the website with live-server ensure the correct npm packages are
 
 Currently in progress ...
 
-### Link to deployed website
+### Help ...
+
+- position the slideshow buttons to be relative to the center left and right of the slideshow image. currently it scales weird. Question on how to scale the slideshow differently (might change the way I approach positioning the buttons).
+
+- cant position the nz image to sit relative to a point on the triple grid like it seems to in the original.
+
+## Todo
+
+1. Need to fix nz image blowing out
+2. add padding to top and bottom of slideshow
+3. position nz image relative to a point on triple grid
+4. position buttons relative to center left and right of slideshow image as it scales.
+5. css for about page.
+6.
